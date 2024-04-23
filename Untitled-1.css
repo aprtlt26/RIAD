@@ -1,0 +1,1365 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw !important;
+    overflow-x: hidden;
+    cursor: none;
+    scroll-behavior: smooth;
+}
+
+footer{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    background-color: #2ECC71;
+}
+
+
+
+.cursor{
+    z-index: 9999;
+    pointer-events: none;
+   
+
+}
+
+.mega-menu-wrap{
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.mega-menu-link{
+    font-size: 18px !important;
+    color: #02d3bb !important; */
+    font-weight: 600 !important;
+}
+
+
+
+.mega-current-menu-item .mega-menu-link{
+    font-weight: 800 !important;
+}
+
+.header{
+    z-index: 100;
+}
+
+.menu-mobile{
+    z-index: 100;
+}
+
+/* MENU */
+.menu-vertical{
+    position: absolute;
+    display: none;
+    width: 220px;
+    left: 0;
+
+}
+
+.menu-vertical.que-hacemos{
+    position: absolute;
+    display: none;
+    width: 260px;
+    left: 0;
+}
+
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.logo-container{
+    clip-path: polygon(0 0, 100% 0, 57% 100%, 0% 100%);
+    background: #d5ff82;
+}
+
+.logo-container.front-page{
+    clip-path: polygon(0 0, 100% 0, 57% 100%, 0% 100%);
+    background: #d3ffaf;
+}
+
+
+
+
+ul.wcdp_options>li>input:checked+label{
+    background: #00bcf5 !important;
+    color: white !important;
+    border: none !important;
+    overflow: hidden !important;
+    border-radius: 5px !important;
+}
+
+.wcdp-row>.wcdp_options>li{
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    background: #a4f2f1f8 !important; */
+}
+
+ul.wcdp_options>li>label{
+    font-family: 'Paytone One', sans-serif !important;
+    font-size: 16px !important;
+    /* font-weight: bold !important; */
+    
+}
+
+.woocommerce-billing-fields > h3{
+    font-family: 'Paytone One', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: bold !important; 
+}
+
+.project-page-projects .line{
+    opacity: 0 !important;
+}
+
+.project-page-projects.active .line{
+    opacity: 1 !important;
+}
+
+.wcdp_options>li>label{
+    color: #ffffff !important;
+    border: 2px solid #4aede8 !important;
+    background: transparent !important;
+    border-radius: 5px !important;
+}
+
+#wcdp_amount{
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+@media (min-width:1024px){
+    #wcdp_amount{
+        grid-template-columns: repeat(3, 1fr) !important;
+    }  
+}
+
+
+.name-project{
+    font-family: 'Paytone One', sans-serif !important;
+}
+
+.description-project, .btn-dona{
+    font-family: 'Dosis', sans-serif;
+}
+
+.product_title {
+    color: #8ecdcd !important;
+    font-size: 32px !important;
+    font-weight: bold !important;
+    font-family: 'Paytone One', sans-serif !important;
+    text-transform: uppercase !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+}
+
+.product_title::before{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 20%;
+    height: 5px;
+    border: 4px;
+    background: #aee599a2;
+}
+
+
+
+.woocommerce-product-details__short-description{
+    font-family: 'Dosis', sans-serif !important;
+    text-align: justify !important;
+}
+
+.woocommerce-breadcrumb{
+    font-family: 'Paytone One', sans-serif !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+}
+
+.woocommerce-breadcrumb{
+    color: #88b0d5 !important;
+}
+
+.woocommerce-breadcrumb > a{
+    color: #d899f7 !important;
+    font-weight: bold !important;
+}
+
+.flex-control-thumbs > li > img{
+    height: 70px !important;
+    object-fit: cover !important;
+    border-radius: 6px !important;
+}
+
+.woocommerce-product-gallery__image > a > img{
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+}
+
+.flex-control-nav{
+    margin-top: 5px !important;
+}
+
+@media (min-width: 1023px){
+    .woocommerce-product-gallery__image > a > img{
+        width: 100% !important;
+        height: 350px !important;
+        object-fit: cover !important;
+        border-radius: 10px !important;
+    }
+
+    .flex-control-thumbs > li > img{
+        height: 100px !important;
+        object-fit: cover !important;
+        border-radius: 10px !important;
+    }
+
+    .flex-control-nav{
+        margin-top: 10px !important;
+        display: flex !important;
+        gap: 5px !important;
+	}
+}
+
+
+.summary.entry-summary{
+    margin-top: -15px;
+}
+
+.woocommerce-product-gallery__trigger{
+    background: white;
+    backdrop-filter: blur(64px) !important;
+    opacity: .8 !important;
+}
+
+.wcdp-variation-heading{
+    font-family: 'Paytone One', sans-serif !important;
+    color: #ce95e8 !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 20px !important;
+}
+
+.wcdp-variation-heading > abbr{
+    display: none !important;
+}
+
+button.wcdp-button.wcdp-left{
+    padding: 15px 50px !important;
+    border-radius: 30px !important;
+}
+
+button.wcdp-button.wcdp-right{
+    float: left !important;
+    background: #ecdba2 !important;
+    color: white !important;
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    border-radius: 30px !important;
+    color: #e6c3ff !important;
+    font-weight: 600 !important;
+    /* width: 100% !important; */
+    padding: 15px 50px !important;
+}
+
+#wcdp-step-1 .product_title::before{
+    display: none !important;
+}
+
+.product_meta{
+    font-family: 'Dosis', sans-serif !important;
+    margin-top: 20px !important;
+}
+
+.posted_in{
+    display: none !important;
+}
+
+.product_meta > .posted_in > a{
+    color: #ead6b9 !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.woocommerce-form-coupon-toggle{
+    display: none !important;
+}
+
+.checkout.woocommerce-checkout input{
+    border: 2px solid #CCD1D1 !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.checkout.woocommerce-checkout select{
+    border: 2px solid #CCD1D1 !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.checkout.woocommerce-checkout select > option{
+    font-family: 'Dosis', sans-serif !important;
+} 
+
+.select2-container .select2-selection--single{
+    font-family: 'Dosis', sans-serif !important;
+    border: 2px solid #CCD1D1 !important;
+    /* padding: 10px 0 !important; */
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.checkout.woocommerce-checkout input::placeholder{
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.checkout.woocommerce-checkout label{
+    font-family: 'Paytone One', sans-serif !important;
+    /* font-weight: 300 !important; */
+    font-size: 16px !important;
+    color: #1C2833  !important;
+}
+
+.checkout.woocommerce-checkout label > abbr{
+    color: #eabff1 !important;
+}
+
+.wcdp-divider-arrow{
+    display: none !important;
+}
+
+#sidebar{
+    float: none !important;
+    height: 0px !important;
+    position: relative !important;
+    visibility: hidden !important;
+}
+
+@media (min-width: 1024px){
+    #sidebar{
+        float: none !important;
+        height: 550px !important;
+        position: relative !important;
+        visibility: hidden !important;
+    }
+}
+
+
+
+.index h2{
+    color: #df9aff !important;
+    text-align: center !important;
+    /* font-size: 42px !important; */
+    margin-bottom: 60px !important;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.index h2::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ccc8bc;
+    height: 5px;
+    width: 15%;
+    border-radius: 3px;
+}
+
+.col-1 .woocommerce-billing-fields > h3{
+    font-family: 'Paytone One', sans-serif !important;
+    color: #b7b9bc !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 10px !important;
+}
+
+#order_review_heading, #wcdp-step-3 h3{
+    font-family: 'Paytone One', sans-serif !important;
+    color: #979797 !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 5px !important;
+    margin-top: 20px !important;
+}
+
+
+
+#place_order{
+    width: 100% !important;
+}
+
+#place_order{
+    background: #e39bf1 !important;
+    color: #019494 !important;
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    border-radius: 25px !important;
+    padding: 15px 40px !important;
+    position: absolute;
+    left: 50%;
+    width: auto !important;
+    transform: translateX(-50%);
+}
+
+.woocommerce-info{
+    border-top-color: #F4CA3A !important;
+    font-family: 'Dosis', sans-serif !important;
+    background: white !important;
+    color: #1C2833 !important;
+    font-size: 20px !important;
+    line-height: normal !important
+}
+
+.woocommerce-info::before {
+    color: #F4CA3A;
+}
+
+.woocommerce-privacy-policy-text{
+    font-family: 'Dosis', sans-serif !important;
+    margin-bottom: 15px !important;
+    font-size: 20px !important;
+    line-height: normal !important;
+    color: white !important;
+}
+
+.woocommerce-checkout-payment{
+    background: #44e1d1 !important;
+    padding: 10px 15px 40px 15px !important;
+}
+
+.wc_payment_method{
+    color: white !important;
+}
+
+#wcdp-progress-bar-background, .wcdp-header>.wcdp-step::before{
+    background: #F4CA3A !important;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#wcdp-progress-bar{
+    background: #d8d1c7 !important;
+}
+
+.wcdp-step{
+    color: #c2d4c1 !important;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+#wcdp-step-1 p{
+    font-family: 'Dosis', sans-serif !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+
+#wcdp-step-1 .product_title{
+    margin-bottom: 0px !important;
+    text-align: center !important;
+}
+
+.wcdp-modal-open{
+    background: #9fffff !important;
+    font-family: 'Dosis', sans-serif !important;
+    border-radius: 20px !important;
+    padding: 10px 30px !important;
+    display: inline-block !important;
+    transition: all 0.3s !important;
+    position: relative !important;
+    overflow: hidden !important;
+    z-index: 1 !important;
+}
+
+.wcdp-modal-open:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F58F00;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+@media(min-width: 624px){
+    #wcdp-popup{
+        width: 80vw !important;
+    }
+}
+
+.wcdp-modal-open:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ead8a0;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.wcdp-modal.open:hover{
+    color: #01948d !important;
+}
+.wcdp-close-open:hover:before{
+    width: 100%;
+}
+
+#wcdp-step-2 .woocommerce-billing-fields h3{
+    color: #01948d !important;
+    font-family: 'Paytone One', sans-serif !important;
+    margin-bottom: 5px !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
+}
+
+#wcdp-step-2 .wcdp-left , #wcdp-step-3 .wcdp-left {
+    background: #fdc87f !important;
+    color: white !important;
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+}
+
+#wcdp-step-2 .wcdp-right{
+    float: right !important;
+    background: #F4CA3A !important;
+    color: white !important;
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+}
+
+.lds-ellipsis div{
+    background: #61dcb3 !important;
+}
+
+#splide-aliados .splide__arrow, #splide-coordinacion .splide__arrow{
+    background: transparent !important;
+    opacity: 1 !important;
+}
+
+#splide-aliados .splide__arrow--next,  #splide-coordinacion .splide__arrow--next{
+    right: -1.2em !important;
+}
+
+#splide-aliados .splide__arrow--prev, #splide-coordinacion .splide__arrow--prev{
+    left: -1em !important;
+}
+
+@media(min-width: 1900px){
+    .title-banner{
+        /* font-size: 72px; */
+    }
+}
+
+@media (min-width: 624px){
+    #splide-aliados .splide__arrow--next, #splide-coordinacion .splide__arrow_next{
+        right: -2.2em !important;
+    }
+    
+    #splide-aliados .splide__arrow--prev,  #splide-coordinacion .splide__arrow_prev{
+        left: -2em !important;
+    }
+    
+    #splide-projects-2 .splide__arrow--next{
+        right: -2.2em !important;
+    }
+    
+    #splide-projects-2 .splide__arrow--prev{
+        left: -2em !important;
+    } 
+
+    #splide-page-projects .splide__arrow--next{
+        right: -2.2em !important;
+    }
+
+    #splide-page-projects .splide__arrow--prev{
+        left: -2em !important;
+    }
+}
+
+#splide-projects-2 .splide__arrow{
+    background: transparent !important;
+}
+
+#splide-projects-2 .splide__arrow--next svg, .splide__arrow--prev svg {
+    fill: white !important;
+    opacity: 1 !important;
+}
+
+.splide__track--nav>.splide__list>.splide__slide.is-active{
+    border: 4px solid white !important;
+}
+
+@media (min-width: 624px){
+    .splide__track--nav>.splide__list>.splide__slide.is-active{
+        border: 4px solid white !important;
+    }
+}
+
+.splide__pagination__page{
+    background: transparent !important;
+    border: 2px solid #9dfffc !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+@media (min-width: 1536px){
+    .splide__pagination__page{
+        width: 12px !important;
+        height: 12px !important;
+    }
+}
+
+
+
+.splide__pagination__page.is-active{
+    background: #bfe1e2 !important;
+    width: 11px !important;
+    height: 11px !important;
+    border-radius: 50% !important;
+    border: none !important;
+}
+
+@media (min-width: 1536px){
+    .splide__pagination__page.is-active{
+        width: 14px !important;
+        height: 14px !important;
+    }
+}
+
+.splide__pagination{
+    bottom: -2em !important;
+    gap: .1rem !important;
+}
+
+#splide-aliados .splide__arrow--next svg, #splide-aliados .splide__arrow--prev svg, #splide-coordinacion .splide__arrow--next svg, #splide-coordinacion .splide__arrow--prev svg {
+    fill: #60ecf6 !important;
+    width: 1.4em !important;
+    height: 1.4em !important;
+}
+
+#splide-years-gallery .splide__arrow , #splide-timeline .splide__arrow{
+    background: transparent !important;
+}
+
+#splide-timeline .splide__arrow--next{
+    right: -1.2em !important;
+}
+
+#splide-timeline .splide__arrow--prev{
+    left: -2.2em !important;
+}
+
+#splide-page-projects .splide__arrow{
+    background: transparent !important;
+}
+
+#splide-page-projects .splide__arrow--next svg, #splide-page-projects .splide__arrow--prev svg {
+    fill: #00f5c4 !important;
+    width: 1.4em !important;
+    height: 1.4em !important;
+}
+
+@media (min-width: 1536px){
+    .splide__pagination{
+        bottom: -3em !important;
+    }
+
+    #splide-aliados .splide__arrow--next svg, #splide-aliados .splide__arrow--prev svg {
+        fill: #00f5b0 !important;
+        width: 2em !important;
+        height: 2em !important;
+    }
+}
+
+@media (min-width: 624px){
+    #splide-projects{
+        position: relative !important;
+        padding: 0 !important;
+    }
+    
+    #splide-projects .splide__track{
+        position: relative !important;
+    }
+}
+
+.wcdp-close {
+    stroke: #01948a !important;
+}
+
+/* CONTACTO */
+#wpforms-form-48 input, #wpforms-form-48 textarea{
+    border: 1px solid #01947b !important;
+    outline: none !important;
+    border-radius: 20px;
+}
+
+#wpforms-form-48 input::placeholder, #wpforms-form-48 textarea::placeholder{
+    color: #01948a !important;
+    font-family: 'Dosis', sans-serif !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+}
+
+#wpforms-submit-48{
+    background: #e7e4e0 !important;
+    font-family: 'Dosis', sans-serif !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+    height: 45px !important;
+    margin-top: -20px !important;
+}
+
+#wpforms-48-field_1 ,#wpforms-48-field_2, #wpforms-48-field_3{
+    margin-top: -12px !important;
+}
+
+/* NUESTRA HISTORIA */
+.seccion{
+    border: 1px solid gray;
+}
+
+.seccion.active{
+    border: none;
+    background: #01948a;
+}
+
+/* NUESTRO EQUIPO */
+.circulo-icon.direccion, .area.direccion{
+    background: #97eac2;
+}
+
+.circulo-icon.administracion, .area.administracion{
+    background: #019295;
+}
+
+
+
+.circulo-icon.proyectos, .area.proyectos{
+    background: #2ECC71;
+}
+
+.circulo-icon.comunicacion, .area.comunicacion{
+    background: #F4CA3A;
+}
+
+.circulo-icon.cooperacion, .area.cooperacion{
+    background: #E74C3C;
+}
+
+.circulo-icon.coordinacion, .area.coordinacion{
+    background: #3498DB;
+}
+
+#splide-hero-home .splide__arrow{
+    background: transparent !important;
+    padding: .3em !important;
+}
+
+#splide-hero-home .splide__arrow svg{
+    fill: #F58F00 !important;
+}
+
+
+@media (min-width: 1024px){
+    /* GALERIA */
+    .grid-wrapper > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-wrapper > a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: center;
+        display: inline-block;
+    }
+
+    .grid-wrapper > div > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .grid-wrapper > a > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .grid-wrapper{
+        display: grid !important;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+    
+    .grid-wrapper .wide{
+        grid-column: span 2;
+    }
+    
+    .grid-wrapper .tall{
+        grid-row: span 2;
+    }
+    
+    .grid-wrapper .big{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+
+
+#splide-years-gallery .splide__arrow svg{
+    fill: #97eac2 !important;
+}
+
+#splide-years-gallery .splide__arrow--next {
+    right: -4em !important;
+}
+
+#splide-timeline .splide__arrow svg{
+    fill: #97eac2#97eac2 !important;
+}
+
+#splide-timeline .splide__arrow--next {
+    right: -4em !important;
+}
+
+#splide-years-gallery .splide__arrow--prev {
+    left: 1em !important;
+}
+
+@media (min-width: 1024px){
+
+    .contenido{
+        display:inline-block;
+        width: 100%;
+        color: #88dbd3;
+        /* margin:20px; */
+        filter: url(#round);
+    }
+    .contenido::before{
+        content: "";
+        display: block;
+        padding: 20px;
+        /* padding-top: 86.6%; */
+        width: 400px;
+        height: 400px;
+        background: #b8c1c1;
+        clip-path: polygon(0 0, 100% 0, 93% 100%, 7% 100%);
+        /* border-radius: 0.25em 0.25em 0.25em 0.25em; */
+    }
+
+    .photo{
+        position: relative;
+        display:inline-block;
+        width: 120px;
+        height: 120px;
+        color: #97eac2#01947b;
+        /* overflow: hidden; */
+        /* margin:20px; */
+        filter: url(#round);
+    }
+
+    .photo::before{
+        content: "";
+        display: block;
+        /* padding: 20px; */
+        /* padding-top: 86.6%; */
+        width: 120px;
+        height: 120px;
+        background: #bed0cf;
+        clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+    }
+
+    .photo img{
+        display:inline-block;
+        width: 120px;
+        height: 120px;
+        /* color: #013F94; */
+        /* overflow: hidden; */
+        /* margin:20px; */
+        filter: url(#round);
+    }
+
+    .photo img::before{
+        position: absolute;
+        content: "";
+        display: block;
+        /* padding: 20px; */
+        /* padding-top: 86.6%; */
+        width: 120px;
+        height: 120px;
+        clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+    }
+
+    .tabla-one{
+        display:inline-block;
+        width: 100%;
+        /* color: #013F94; */
+        /* margin:20px; */
+        filter: url(#round);
+    }
+
+    .tabla-one::before{
+        content: "";
+        display: block;
+        /* padding: 20px; */
+        /* padding-top: 86.6%; */
+        width: 100%;
+        height: 830px;
+        background: #d0dbda;
+        clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+    }
+}
+
+@media (min-width: 1535px){
+
+    .contenido{
+        display:inline-block;
+        width: 100%;
+        color: #bacece;
+        /* margin:20px; */
+        filter: url(#round);
+        z-index: 20;
+    }
+    .contenido::before{
+        content: "";
+        display: block;
+        padding: 10px;
+        /* padding-top: 86.6%; */
+        width: 90%;
+        margin: 0 auto;
+        height: 450px;
+        background: ##01948d;
+        clip-path: polygon(0 0, 100% 0, 93% 100%, 7% 100%);
+        /* border-radius: 0.25em 0.25em 0.25em 0.25em; */
+        
+    }
+}
+
+/* NOSOTROS */
+.parrafo-seccion{
+    display: none;
+}
+
+.parrafo-seccion.active{
+    display: block;
+}
+
+.imagen-seccion{
+    display: none;
+}
+
+.imagen-seccion.active{
+    display: block;
+}
+
+/* VIDEO YOUTUBE */
+/* Cambiar el color de fondo del botÃ³n de reproducciÃ³n */
+.ytp-large-play-button-background {
+    background: #b0f4f2 !important;
+}
+  
+  /* Cambiar el color del botÃ³n de pausa */
+.ytp-play-button.ytp-button {
+    background: #019295 !important;
+}
+
+.video{
+    border-radius: 16px !important;
+}
+
+.presto-block-video:not(.presto-sticky-parent) {
+    border-radius: var(--presto-player-border-radius, 20px) !important;
+}
+
+.skin-modern.presto-player__wrapper button.plyr__control.plyr__control--overlaid{
+    padding: 2% 2% !important;
+    border-radius: 10px !important;
+}
+
+button.plyr__control.plyr__control--overlaid {
+    padding: 2% 2% !important;
+    border-radius: 10px !important;
+}
+
+button.plyr__control{
+    padding: 2% 2% !important;
+    border-radius: 10px !important;
+}
+
+
+
+.wc-donation-platform{
+    border-radius: 20px !important;
+    background: white !important;
+    overflow: hidden !important;
+}
+
+#wcdp-popup{
+    background: transparent !important;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li img{
+    opacity: 0.7 !important;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li img.flex-active, .woocommerce div.product div.images .flex-control-thumbs li img:hover{
+    opacity: 1 !important;
+}
+
+.segundo-adorno{
+    z-index: -1;
+}
+
+.texto-banner{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .texto-banner{
+        -webkit-line-clamp: 4;
+    }
+}
+
+.descripcion-vacante{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.description-project{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.descripcion-galeria{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.linea-estrategica{
+    border: 1px solid gray;
+}
+
+.linea-estrategica.active{
+    border: none;
+    background: #F4CA3A;
+}
+
+.cursos-asociados{
+    display: none;
+}
+
+.cursos-asociados.active{
+    display: block;
+}
+
+.grid-wrapper  > a:nth-child(3), .grid-wrapper  > a:nth-child(6) {
+    grid-row: span 2;
+}
+
+.grid-wrapper  > a:nth-child(5), .grid-wrapper > a:nth-child(10){
+    grid-column: span 2;
+}
+
+
+
+@media (min-width: 1536px){
+    a.mega-menu-link{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 1900px){
+    a.mega-menu-link{
+        font-size: 24px !important;
+    }
+}
+
+.boton-donar.active{
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+@keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(4px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-6px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(6px, 0, 0);
+    }
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #efefef;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #7af1b8;
+    border-radius: 5px;
+}
+
+.button-tercary{
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.button-primary, .button-secondary{
+    display: inline-flex;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.button-primary:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #46b0b6;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.button-primary:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #6ee0e2;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.button-primary:hover, .button-secondary:hover{
+    color: #fff;
+}
+
+.button-tercary:hover{
+    color: #fff;
+}
+
+.button-primary:hover:before, .button-secondary:hover:before, .button-tercary:hover:before {
+    width: 100%;
+}
+
+.button-secondary:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #97eac2;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.button-secondary:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #e5f500;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.button-tercary:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F58F00;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.button-tercary:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #fadeff;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.order_details .order{
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.order_details .order > strong{
+    font-family: 'Paytone', sans-serif !important;
+    color: #019477 !important;
+}
+
+.tabs-estado-proyectos span{
+    border: 2px solid gray;
+}
+
+.tabs-estado-proyectos span.active{
+    border: none;
+    background: #97eac2;
+}
+
+.year-gallery > .line{
+    display: none;
+}
+
+.year-gallery.active > .line{
+    display: block;
+}
+
+.imagen-galeria{
+    display: none !important;
+}
+
+.imagen-galeria.active{
+    display: block !important;
+}
+
+.social-icons{
+    z-index: 100;
+}
+
+
+
+.member{
+    width: 100% !important;
+}
+
+
+@media (min-width: 640px){
+    .member{
+        width: calc((100% / 2) - 1rem) !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .member{
+        width: calc((100% / 3) - 1rem) !important;
+    }
+}
+
+@media (min-width: 1280px){
+    .member{
+        width: calc((100% / 4) - 1rem) !important;
+    }
+}
+
+@media (min-width: 1920px){
+    .member{
+        width: calc((100% / 5) - 1rem) !important;
+    }
+}
+
+.image-interna{
+    width: calc((100% / 2) - 1rem) !important;;
+}
+
+@media (min-width: 640px){
+    .image-interna{
+        width: calc((100% / 2) - 1rem) !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .image-interna{
+        width: calc((100% / 3) - 1rem) !important;
+    }
+}
+
+@media (min-width: 1280px){
+    .image-interna{
+        width: calc((100% / 4) - 1rem) !important;
+    }
+}
+
+body.single-product .logos-footer-right{
+    height: 6rem !important;
+}
+
+.woocommerce-breadcrumb{
+    display: none !important;
+}
+
+#mega-menu-menu-principal{
+    transition: all .3s ease-in;
+}
